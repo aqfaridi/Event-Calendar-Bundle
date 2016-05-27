@@ -1,13 +1,15 @@
 Web Application to manage and categorize events built on Symfony2-CRUD (Doctrine),Twig,Bootstrap Framework
 
-# Features 
+## Features 
 
 	- View Events
 	- Add Events & Categories
 	- Edit Events & Categories
 
 	
-# Database Configuration : app/config/parameters.yml
+## Database Configuration
+
+	Edit file :  app/config/parameters.yml
 
 ```
 	database_host:     127.0.0.1
@@ -21,7 +23,7 @@ Web Application to manage and categorize events built on Symfony2-CRUD (Doctrine
 	$ php app/console doctrine:schema:update --force
 ```	
 	
-# Run : 
+## Run : 
 
 ```
 	$ php app/console server:run
